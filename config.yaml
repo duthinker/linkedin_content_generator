@@ -1,0 +1,227 @@
+# Content Types, Goals, and Metrics Configuration
+content_types:
+  - text
+  - carousel
+  - poll
+  - newsletter
+  - video_script
+  - document
+
+content_goals:
+  - thought_leadership
+  - engagement
+  - lead_generation
+  - brand_awareness
+  - recruitment
+
+optimization_metrics:
+  - engagement_rate
+  - click_through
+  - conversion_rate
+  - follower_growth
+  - reach
+
+# Brand Voice Configuration
+brand_voice:
+  tone:
+    - professional
+    - authoritative
+    - innovative
+    - empathetic
+  style:
+    - conversational
+    - storytelling
+    - educational
+    - analytical
+  personality:
+    - authentic
+    - trustworthy
+    - visionary
+    - helpful
+  key_phrases:
+    - artificial intelligence
+    - digital transformation
+    - innovation
+    - machine learning
+    - data-driven insights
+    - strategic implementation
+  emoji_style: minimal
+  industry_hashtags:
+    - AI
+    - MachineLearning
+    - DigitalTransformation
+    - Innovation
+    - TechTrends
+    - FutureOfWork
+
+# Content Configuration
+content_config:
+  primary_goal: thought_leadership
+  target_audience:
+    - tech executives
+    - startup founders
+    - innovation leaders
+    - IT decision makers
+  industry_context: AI and Machine Learning
+  custom_parameters:
+    content_length: medium
+    include_statistics: true
+    hashtag_style: integrated
+    carousel_slides: 8
+    poll_options: 4
+    video_length_minutes: 3
+
+# Templates
+templates:
+  hooks:
+    text:
+      - "I discovered something surprising about {topic}..."
+      - "The truth about {topic} nobody talks about 👇"
+      - "3 myths about {topic} debunked:"
+      - "Here's what {duration} of working with {topic} taught me..."
+      - "Breaking: Major shift in {topic} trends..."
+    carousel:
+      - "🚀 Complete guide to {topic}"
+      - "Master {topic} in {num_slides} steps"
+      - "Everything you need to know about {topic} 👇"
+      - "{topic}: From Basics to Advanced"
+      - "The Ultimate {topic} Framework"
+    poll:
+      - "What's your take on {topic}?"
+      - "Quick poll: {topic} implementation"
+      - "Share your experience with {topic}"
+      - "Let's settle this: {topic} preferences"
+    newsletter:
+      - "{topic} Weekly Insights 📊"
+      - "Your {topic} Digest"
+      - "Inside {topic}: Weekly Update"
+      - "The {topic} Observer"
+    video_script:
+      - "Watch: {topic} Explained in {duration} Minutes"
+      - "🎥 {topic} Masterclass"
+      - "Behind the Scenes: {topic} Implementation"
+    document:
+      - "📘 {topic} Whitepaper"
+      - "Complete Guide: {topic} Strategy"
+      - "Research Report: {topic} Trends"
+
+  cta:
+    engagement:
+      - "What's your experience with {topic}? Share below 👇"
+      - "Agree or disagree? Let me know your thoughts!"
+      - "Which aspect of {topic} interests you most?"
+      - "Tag someone who needs to see this!"
+    lead_generation:
+      - "Want to learn more? DM me for the complete guide"
+      - "Join our upcoming webinar on {topic}. Link in comments!"
+      - "Download our free {topic} toolkit (link in bio)"
+      - "Book a free {topic} strategy session"
+    thought_leadership:
+      - "What other {topic} trends are you seeing?"
+      - "How are you implementing {topic} in your organization?"
+      - "Share your {topic} predictions for next year"
+    brand_awareness:
+      - "Follow for more {topic} insights"
+      - "Check out our latest {topic} case study"
+      - "Learn how we're revolutionizing {topic}"
+    recruitment:
+      - "Join our team of {topic} experts"
+      - "We're hiring {topic} specialists"
+      - "Build the future of {topic} with us"
+
+  carousel_sections:
+    - Introduction and Problem Statement
+    - Current Industry Challenges
+    - Solution Overview
+    - Key Benefits
+    - Implementation Steps
+    - Best Practices
+    - Common Pitfalls
+    - Success Metrics
+    - Case Studies
+    - Resources and Next Steps
+
+  poll_structures:
+    implementation:
+      - "Already implemented"
+      - "Planning to implement"
+      - "Considering it"
+      - "Not interested"
+    preference:
+      - "Option A: {choice_a}"
+      - "Option B: {choice_b}"
+      - "Option C: {choice_c}"
+      - "Other (comment below)"
+    timeline:
+      - "< 3 months"
+      - "3-6 months"
+      - "6-12 months"
+      - "> 12 months"
+
+  newsletter_sections:
+    - "🔥 Top Stories"
+    - "📊 Industry Updates"
+    - "💡 Expert Insights"
+    - "🎯 Best Practices"
+    - "📚 Resources"
+    - "📅 Upcoming Events"
+
+  video_script_sections:
+    - "Hook (0:00-0:15)"
+    - "Introduction (0:15-0:45)"
+    - "Main Points (0:45-2:15)"
+    - "Examples/Case Studies (2:15-2:45)"
+    - "Conclusion & CTA (2:45-3:00)"
+
+  document_sections:
+    whitepaper:
+      - "Executive Summary"
+      - "Industry Overview"
+      - "Challenge Analysis"
+      - "Solution Framework"
+      - "Implementation Guide"
+      - "ROI Analysis"
+      - "Conclusions"
+    case_study:
+      - "Client Background"
+      - "Challenge"
+      - "Solution"
+      - "Implementation"
+      - "Results"
+      - "Lessons Learned"
+
+# Content Formatting
+formatting:
+  text:
+    max_paragraphs: 6
+    lines_per_paragraph: 3
+    emoji_density: low
+  carousel:
+    slides_per_post: 8-10
+    points_per_slide: 3-4
+    image_text_ratio: 60-40
+  video:
+    ideal_duration: 2-3min
+    section_breakdown:
+      intro: 15%
+      content: 70%
+      conclusion: 15%
+  document:
+    page_length: 5-7
+    section_distribution:
+      intro: 10%
+      body: 80%
+      conclusion: 10%
+
+# Success Patterns
+engagement_patterns:
+  high_performing:
+    - "Start with controversial statement"
+    - "Use numbers and statistics"
+    - "Share personal experience"
+    - "Ask thought-provoking questions"
+  best_practices:
+    - "Keep paragraphs short"
+    - "Use bullet points sparingly"
+    - "Include relevant hashtags"
+    - "End with clear CTA"
