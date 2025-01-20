@@ -26,29 +26,33 @@ brand_voice:
   tone:
     - casual
     - empathetic
+    - reflective
+    - experience-based
   style:
     - conversational
     - storytelling
     - educational
+    - problem-solving
   personality:
     - authentic
+    - vulnerable
+    - curious
     - trustworthy
-    - visionary
     - helpful
   key_phrases:
-    - artificial intelligence
-    - digital transformation
-    - innovation
-    - machine learning
-    - data-driven insights
-    - strategic implementation
-  emoji_style: optimal
+    - real-world implementation
+    - practical insights
+    - team learnings
+    - industry challenges
+    - continuous improvement
+    - collaborative innovation
+  emoji_style: minimal
   industry_hashtags:
-    - AI
-    - MachineLearning
-    - DigitalTransformation
-    - Innovation
-    - TechTrends
+    - AIJourney
+    - TechLessons
+    - InnovationStories
+    - BuildingInPublic
+    - TechExperiences
     - FutureOfWork
 
 # Content Configuration
@@ -64,7 +68,7 @@ content_config:
     content_length: medium
     include_statistics: true
     hashtag_style: integrated
-    carousel_slides: 8
+    carousel_slides: 6
     poll_options: 4
     video_length_minutes: 3
 
@@ -72,59 +76,59 @@ content_config:
 templates:
   hooks:
     text:
-      - "I discovered something surprising about {topic}..."
-      - "The truth about {topic} nobody talks about 👇"
-      - "3 myths about {topic} debunked:"
-      - "Here's what {duration} of working with {topic} taught me..."
-      - "Breaking: Major shift in {topic} trends..."
+      - "Last week, I encountered an interesting challenge with {topic}..."
+      - "Here's what surprised me after implementing {topic}..."
+      - "A team member's question about {topic} made me realize..."
+      - "After months of hands-on experience with {topic}, I've noticed..."
+      - "Let me share a recent {topic} implementation story..."
     carousel:
-      - "🚀 Complete guide to {topic}"
-      - "Master {topic} in {num_slides} steps"
-      - "Everything you need to know about {topic} 👇"
-      - "{topic}: From Basics to Advanced"
-      - "The Ultimate {topic} Framework"
+      - "Lessons learned from our {topic} journey"
+      - "Real challenges we faced with {topic}"
+      - "What nobody tells you about {topic}"
+      - "{topic}: From Theory to Practice"
+      - "Our team's approach to {topic}"
     poll:
-      - "What's your take on {topic}?"
-      - "Quick poll: {topic} implementation"
-      - "Share your experience with {topic}"
-      - "Let's settle this: {topic} preferences"
+      - "What's your biggest challenge with {topic}?"
+      - "How is your team approaching {topic}?"
+      - "What's your experience with {topic}?"
+      - "Which {topic} challenge resonates most?"
     newsletter:
-      - "{topic} Weekly Insights 📊"
-      - "Your {topic} Digest"
-      - "Inside {topic}: Weekly Update"
-      - "The {topic} Observer"
+      - "Real-world {topic} Insights"
+      - "This Week in {topic}: Field Notes"
+      - "Practical {topic} Lessons"
+      - "{topic}: Stories from the Trenches"
     video_script:
-      - "Watch: {topic} Explained in {duration} Minutes"
-      - "🎥 {topic} Masterclass"
-      - "Behind the Scenes: {topic} Implementation"
+      - "Lessons from implementing {topic}"
+      - "Real-world {topic} stories"
+      - "Behind the scenes: {topic} in action"
     document:
-      - "📘 {topic} Whitepaper"
-      - "Complete Guide: {topic} Strategy"
-      - "Research Report: {topic} Trends"
+      - "Practical Guide: {topic} Implementation"
+      - "Field Notes: {topic} in Practice"
+      - "Team Learnings: {topic} Journey"
 
   cta:
     engagement:
-      - "What's your experience with {topic}? Share below 👇"
-      - "Agree or disagree? Let me know your thoughts!"
-      - "Which aspect of {topic} interests you most?"
-      - "Tag someone who needs to see this!"
+      - "What challenges have you faced with {topic}? Would love to hear your story"
+      - "Has your experience been different? Let's discuss"
+      - "Curious to hear your perspective on this"
+      - "What's been your biggest learning in this space?"
     lead_generation:
-      - "Want to learn more? DM me for the complete guide"
-      - "Join our upcoming webinar on {topic}. Link in comments!"
-      - "Download our free {topic} toolkit (link in bio)"
-      - "Book a free {topic} strategy session"
+      - "Happy to share more about our learning process"
+      - "We're hosting a discussion on {topic} challenges next week"
+      - "I've documented our journey - DM if you'd like to learn more"
+      - "Let's connect and share experiences"
     thought_leadership:
-      - "What other {topic} trends are you seeing?"
-      - "How are you implementing {topic} in your organization?"
-      - "Share your {topic} predictions for next year"
+      - "What unexpected challenges have you encountered?"
+      - "How has your approach to {topic} evolved?"
+      - "What's been your most valuable lesson?"
     brand_awareness:
-      - "Follow for more {topic} insights"
-      - "Check out our latest {topic} case study"
-      - "Learn how we're revolutionizing {topic}"
+      - "More stories from our {topic} journey coming soon"
+      - "Here's how we're learning and growing with {topic}"
+      - "Join us in exploring {topic} challenges"
     recruitment:
-      - "Join our team of {topic} experts"
-      - "We're hiring {topic} specialists"
-      - "Build the future of {topic} with us"
+      - "Want to solve {topic} challenges together?"
+      - "Looking for curious minds to explore {topic}"
+      - "Join our learning journey with {topic}"
 
   carousel_sections:
     - Introduction and Problem Statement
@@ -213,12 +217,12 @@ formatting:
 # Success Patterns
 engagement_patterns:
   high_performing:
-    - "Start with controversial statement"
-    - "Use numbers and statistics"
-    - "Share personal experience"
-    - "Ask thought-provoking questions"
+    - "Share specific implementation challenges"
+    - "Include real team experiences"
+    - "Discuss both successes and failures"
+    - "Ask about others' experiences"
   best_practices:
-    - "Keep paragraphs short"
-    - "Use bullet points sparingly"
-    - "Include relevant hashtags"
-    - "End with clear CTA"
+    - "Write conversationally"
+    - "Share context and background"
+    - "Include specific examples"
+    - "End with genuine questions"
