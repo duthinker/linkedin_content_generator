@@ -24,15 +24,12 @@ optimization_metrics:
 # Brand Voice Configuration
 brand_voice:
   tone:
-    - professional
-    - authoritative
-    - innovative
+    - casual
     - empathetic
   style:
     - conversational
     - storytelling
     - educational
-    - analytical
   personality:
     - authentic
     - trustworthy
@@ -45,7 +42,7 @@ brand_voice:
     - machine learning
     - data-driven insights
     - strategic implementation
-  emoji_style: minimal
+  emoji_style: optimal
   industry_hashtags:
     - AI
     - MachineLearning
